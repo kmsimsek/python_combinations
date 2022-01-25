@@ -88,9 +88,9 @@ You can add special conditions listed below;
   you can use 
   (n1 and n2 are integer and/or float)
   (mark defines any of "=",">=",">","<","<="  -  including quotation marks):
-  sum=[n1] ** working
-  sum=[mark,n1] ** working
-  sum=[mark,n1,mark,n2] ** still try to solve bug here
+  sum=[n1] 
+  sum=[mark,n1] 
+  sum=[mark,n1,mark,n2] 
   
   for example:
   combinations(sample_list_2,sum=[">=",7])
@@ -104,9 +104,9 @@ You can add special conditions listed below;
   you can use 
   (n1 and n2 are integer and/or float)
   (mark defines any of "=",">=",">","<","<="  -  including quotation marks):
-  multiply=[n1] ** working
-  multiply=[mark,n1] ** working
-  multiply=[mark,n1,mark,n2] ** still try to solve bug here
+  multiply=[n1] 
+  multiply=[mark,n1] 
+  multiply=[mark,n1,mark,n2] 
   
   for example:
   combinations(sample_list_2,multiply=[">=",7])
